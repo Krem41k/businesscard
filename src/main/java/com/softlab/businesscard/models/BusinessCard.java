@@ -3,7 +3,6 @@ package com.softlab.businesscard.models;
 import javax.persistence.*;
 
 @Entity
-@Table
 public class BusinessCard {
     @Id
     @GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
